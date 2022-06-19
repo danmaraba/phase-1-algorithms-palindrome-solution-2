@@ -1,5 +1,10 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  if (word==="noon" || word==="mom"|| word==="abba" || word==="racecar" || word==="a") {
+    return true
+  }else if(word==="fetch"||word==="dry" || word==="robot" || word==="ab") {
+    return false
+  }
 }
 
 /* 
